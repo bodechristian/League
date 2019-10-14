@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CntrlAddReck" spacing="25" alignment="CENTER_RIGHT">
+	<padding>
+		<Insets bottom="25" left="25" right="25" top="25" />
+	</padding>
+	
+	<HBox spacing="8">
+		<Label id="label" text="Name of Champ" prefWidth="100" prefHeight="22" alignment="CENTER_RIGHT"/>
+		<TextField id="textfield" fx:id="tfName"/>
+	</HBox>
+
+	<HBox spacing="8">
+		<Label id="label" text="Rating" prefWidth="100" prefHeight="22" alignment="CENTER_RIGHT"/>
+		<Spinner id="spinner" fx:id="spnRating">
+			<valueFactory>
+				<SpinnerValueFactory.IntegerSpinnerValueFactory
+					min="1" max="5" />
+			</valueFactory>
+		</Spinner>
+	</HBox>
+
+	<Button id="button" text="Finish" onAction="#finish"/>
+</VBox>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane fx:id="gridshit" xmlns:fx="http://javafx.com/fxml/1"
+	hgap="15" fx:controller="application.CntrlChampionView">
+	<padding>
+		<Insets bottom="25" left="25" right="25" top="25" />
+	</padding>
+	<columnConstraints>
+		<ColumnConstraints minWidth="233" percentWidth="33" />
+		<ColumnConstraints percentWidth="33" />
+		<ColumnConstraints percentWidth="33" />
+	</columnConstraints>
+	<rowConstraints>
+		<RowConstraints />
+		<RowConstraints vgrow="ALWAYS" />
+	</rowConstraints>
+	<FlowPane fx:id="fpButtons" GridPane.columnIndex="0"
+		GridPane.rowIndex="0" orientation="VERTICAL" vgap="20">
+		<Label id="bigheader" fx:id="lbChamp" text="test" alignment="CENTER"
+			prefWidth="${fpButtons.width}" />
+		<Button id="button" text="Back to Overview" onAction="#backToOverview"
+			prefWidth="${fpButtons.width}" />
+		<Button id="button" text="Add Recks" onAction="#addReck"
+			prefWidth="${fpButtons.width}" />
+		<Button id="button" text="Add Threat" onAction="#addThreat"
+			prefWidth="${fpButtons.width}" />
+		<Button id="button" text="Add Note" onAction="#addNote"
+			prefWidth="${fpButtons.width}" />
+		<Button id="button" fx:id="btnDelete" text="Delete Note"
+			onAction="#deleteNote" prefWidth="${fpButtons.width}" />
+		<Button id="button" text="Edit Roles" onAction="#editRoles"
+			prefWidth="${fpButtons.width}" />
+	</FlowPane>
+	<FlowPane fx:id="fpGetRekt" GridPane.columnIndex="1"
+		GridPane.rowIndex="0" orientation="VERTICAL" vgap="10">
+	</FlowPane>
+	<FlowPane fx:id="fpThreats" GridPane.columnIndex="2"
+		GridPane.rowIndex="0" orientation="VERTICAL" vgap="10">
+	</FlowPane>
+	<FlowPane id="notefield" fx:id="fpNotes" GridPane.columnIndex="0"
+		GridPane.columnSpan="3" GridPane.rowIndex="1" orientation="VERTICAL"
+		alignment="CENTER" vgap="3" >
+	</FlowPane>
+</GridPane>
+

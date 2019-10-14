@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.CntrlAddNote" prefHeight="400"
+	prefWidth="400" spacing="8" alignment="CENTER">
+	<padding>
+		<Insets bottom="25" left="25" right="25" top="25" />
+	</padding>
+	<Label id="label" text="Note to add:" alignment="CENTER" prefWidth="400"/>
+	<TextArea id="textarea" fx:id="taNote" prefHeight="300" prefWidth="300" />
+	<Button id="button" text="finish" onAction="#finish" />
+</VBox>
+

@@ -1,0 +1,146 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-font-size: 10.0pt;
+	-fx-background-color: linear-gradient(#020D19, #001D24)
+	;
+}
+
+#button {
+	-fx-background-color: #C89B3C, #1E2327;
+    -fx-background-insets: 0, 1;
+	-fx-background-radius: 5.0;
+	-fx-text-fill: #A8C4C7;
+}
+
+#button:hover
+{
+	-fx-background-color: #C89B3C, #2F363A;
+    -fx-background-insets: 0, 1;
+}
+
+#recks {
+	-fx-background-color: #C89B3C, #1E2327;
+    -fx-background-insets: 0, 1;
+	-fx-background-radius: 5.0;
+	-fx-text-fill: #276128;
+}
+
+#recks:hover
+{
+	-fx-background-color: #C89B3C, #2F363A;
+    -fx-background-insets: 0, 1;
+}
+
+#threat {
+	-fx-background-color: #C89B3C, #1E2327;
+    -fx-background-insets: 0, 1;
+	-fx-background-radius: 5.0;
+	-fx-text-fill: #9C3213;
+}
+
+#threat:hover
+{
+	-fx-background-color: #C89B3C, #2F363A;
+    -fx-background-insets: 0, 1;
+}
+
+#label {
+	-fx-text-fill: #A8C4C7;
+	-fx-font-weight: bold; 
+}
+
+#header {
+	-fx-text-fill: #C89B3C;
+	-fx-font-weight: bold; 
+	-fx-font-size: 25px;
+}
+
+#bigheader {
+	-fx-text-fill: #C89B3C;
+	-fx-font-weight: bold; 
+	-fx-font-size: 35px;
+}
+
+#rating {
+	-fx-font-size: 15;
+	-fx-text-fill: #A8C4C7;
+	-fx-border-color: #B2B09B;
+	-fx-border-radius: 15px;
+	-fx-border-width: 1px;
+}
+
+#note {
+	-fx-background-radius: 15pt;
+	-fx-text-fill: #CCCCCC;
+	-fx-padding: 0 20;
+	-fx-effect: dropshadow( three-pass-box , rgba(216,155,60,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#notefield{ 
+	-fx-border-color: #C89B3C;
+	-fx-border-width: 2pt;
+	-fx-border-radius: 5;
+	-fx-padding: 10pt;
+}
+
+.combo-box-base {
+	-fx-background-color: #C89B3C, #1E2327;
+    -fx-background-insets: 0, 1;
+}
+
+.combo-box-base:hover
+{
+	-fx-background-color: #C89B3C, #2F363A;
+    -fx-background-insets: 0, 1;
+}
+
+.combo-box .list-cell 
+{
+    -fx-background-color: transparent;
+    -fx-text-fill: #3F565A;
+}
+
+.combo-box .list-cell:hover
+{
+    -fx-text-fill: #C89B3C;
+}
+
+.combo-box-base .list-cell:selected 
+{
+    -fx-text-fill: #A8C4C7;
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: #C89B3C, #1E2327;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+
+
+#spinner {
+    -fx-background-color: #C89B3C, #1E2327;
+    -fx-background-insets: 0, 1;
+}
+
+#textfield{
+	
+}
+
+#textarea {
+	
+}
+
+#hbox {
+}
+
+#vbox {
+	
+}
+
+#fp {
+	
+}
+
+

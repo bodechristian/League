@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.CntrlDeleteNote" spacing="15" alignment="CENTER_RIGHT">
+	<padding>
+		<Insets bottom="25" left="25" right="25" top="25" />
+	</padding>
+	<Spinner id="spinner" fx:id="spn">
+		<valueFactory>
+			<SpinnerValueFactory.IntegerSpinnerValueFactory
+				min="0" max="10" />
+		</valueFactory>
+	</Spinner>
+	<Button id="button" text="finish" onAction="#finish" />
+</VBox>
+
