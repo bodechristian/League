@@ -17,3 +17,6 @@ When Selecting a champion you can take notes and add its strength compared to ot
 
 <img src="src/imgs/Champion.png" alt="Champion" width="250" height="299"/>
 
+Includes state-of-the-art animations!
+
+<img src="src/imgs/Opening.gif" alt="Animations" width="554" height="400"/>
