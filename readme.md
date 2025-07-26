@@ -4,15 +4,16 @@ An application to help you keep note of Champion Interactions and your Champion 
 
 # Showcase
 
-Overview 
+Overview of all champions
 
-![Overview](https://github.com/bodechristian/League/tree/master/src/imgs/Overview.png "The Overview")
+<img src="src/imgs/Overview.png" alt="Overview" width="556" height="400"/>
 
-Selecting current role (jungle) to see your selected main champion pool
+Selecting current role (jungle) to see your selected main champion pool.
 This can help you visualize and weigh your options
 
-![OverviewSelectedJungle](https://github.com/bodechristian/League/tree/master/src/imgs/OverviewSelection.png "The Overview with Jungle selected")
+<img src="src/imgs/OverviewSelection.png" alt="OverviewSelectedJungle" width="557" height="400"/>
 
+When Selecting a champion you can take notes and add its strength compared to other champions
 
-![Opening](https://github.com/bodechristian/League/tree/master/src/imgs/Opening.png "The view when a champion is selected")
+<img src="src/imgs/Champion.png" alt="Champion" width="250" height="299"/>
 
