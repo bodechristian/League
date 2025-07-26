@@ -40,7 +40,7 @@ Illaoi;all;;;;end
 Irelia;all;Sylas/2.0/1;;Is extremely strong after clearing wave, when stacking up spells;end
 Ivern;all;;;;end
 Janna;all;;;;end
-Jarvan IV;jungle,all;Karthus/4.0/1;;;end
+Jarvan IV;all,jungle;Karthus/4.0/1;;;end
 Jax;all;;;;end
 Jayce;all;;;;end
 Jhin;all;;;;end
@@ -55,7 +55,7 @@ Kayle;all;;;;end
 Kayn;all;;;;end
 Kennen;all;;;;end
 Kha'Zix;all;;;;end
-Kindred;all;;;;end
+Kindred;all;;Udyr/4.0/1;;end
 Kled;all;;;;end
 Kog'Maw;all;;;;end
 LeBlanc;all;;;;end
@@ -118,7 +118,7 @@ Trundle;all;;;;end
 Tryndamere;all;;;;end
 Twisted Fate;all;;;;end
 Twitch;all;;;;end
-Udyr;all;;;;end
+Udyr;all,jungle;kindred/5.0/1,Kindred/4.0/1;;;end
 Urgot;all;;;;end
 Varus;all;;;;end
 Vayne;all;;;;end
